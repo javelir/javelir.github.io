@@ -1,6 +1,10 @@
 # github.io page for Javelir
 
-More to update later.
 
+```shell
+git push
 
-Built with React.
+# this will build the site and push it to the gh-pages branch
+npm run deploy
+```
+
