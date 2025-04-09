@@ -1,0 +1,68 @@
+:root {
+    /* Color Variables */
+    --color-book-cloth: #cc785c;
+    --color-cactus: #bcd1ca;
+    --color-clay: #d97757;
+    --color-cloud-dark: #87867f;
+    --color-cloud-light: #d1cfc5;
+    --color-cloud-medium: #b0aea5;
+    --color-coral: #ebcece;
+    --color-dark: #0f0f0e;
+    --color-fig: #c46686;
+    --color-heather: #cbcadb;
+    --color-ivory-dark: #e8e6dc;
+    --color-ivory-light: #faf9f5;
+    --color-ivory-medium: #f0eee6;
+    --color-kraft: #d4a27f;
+    --color-light: #f0eee600;
+    --color-manilla: #ebdbbc;
+    --color-manilla-light: #f1e6d0;
+    --color-oat: #e3dacc;
+    --color-olive: #788c5d;
+    --color-sky: #6a98bc;
+    --color-slate-dark: #141413;
+    --color-slate-light: #5e5d59;
+    --color-slate-medium: #3d3d3a;
+    
+    /* Spacing Variables */
+    --spacer-01: 4px;
+    --spacer-02: 8px;
+    --spacer-03: 12px;
+    --spacer-04: 16px;
+    --spacer-05: 24px;
+    --spacer-06: 32px;
+    --spacer-07: 40px;
+    --spacer-08: 48px;
+    --spacer-09: 64px;
+    --spacer-10: 80px;
+    --spacer-11: 96px;
+    --spacer-12: 160px;
+}
+
+/* Default styles that can be applied throughout the application */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-light, #f0eee600);
+    color: var(--color-cloud-dark, #87867f);
+}
+
+/* Basic utility classes for spacing */
+.m-1 { margin: var(--spacer-01); }
+.m-2 { margin: var(--spacer-02); }
+.m-3 { margin: var(--spacer-03); }
+.m-4 { margin: var(--spacer-04); }
+.m-5 { margin: var(--spacer-05); }
+.m-6 { margin: var(--spacer-06); }
+
+.p-1 { padding: var(--spacer-01); }
+.p-2 { padding: var(--spacer-02); }
+.p-3 { padding: var(--spacer-03); }
+.p-4 { padding: var(--spacer-04); }
+.p-5 { padding: var(--spacer-05); }
+.p-6 { padding: var(--spacer-06); }

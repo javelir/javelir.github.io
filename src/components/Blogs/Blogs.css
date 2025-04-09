@@ -1,0 +1,26 @@
+.blogs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blog-list {
+  margin-top: 2rem;
+}
+
+/* Blog item styling is now handled by the Card component */
+
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-link h2 {
+  margin: 0;
+  color: var(--color-slate-dark, #333);
+  font-size: 1.5rem;
+}
+
+.blog-link:hover h2 {
+  color: var(--color-primary, #4a90e2);
+}

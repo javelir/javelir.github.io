@@ -1,0 +1,99 @@
+.blog-post-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blog-post-metadata {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-cloud-light, #eaeaea);
+}
+
+.blog-post-metadata .blog-post-date {
+  font-size: 1rem;
+  color: var(--color-cloud-dark, #87867f);
+  margin-bottom: 0.5rem;
+}
+
+.blog-post-metadata .blog-post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.blog-post-metadata .blog-post-tag {
+  font-size: 0.9rem;
+  background-color: var(--color-cloud-light, #f0f0f0);
+  color: var(--color-slate-medium, #666);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.blog-post-metadata .blog-post-brief {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-slate-medium, #555);
+  margin-top: 0.5rem;
+}
+
+.blog-post-content {
+  background-color: var(--color-ivory-light, #f8f8f8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.blog-post-loading,
+.blog-post-error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: var(--color-slate-medium, #666);
+}
+
+.blog-post-error {
+  color: #e74c3c;
+}
+
+/* Markdown content styling */
+.blog-post-content h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: var(--color-slate-dark, #333);
+  text-align: center;
+}
+
+.blog-post-content h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: var(--color-slate-dark, #333);
+}
+
+.blog-post-content p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--color-slate-medium, #555);
+}
+
+.blog-post-content ul,
+.blog-post-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.blog-post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.blog-post-content a {
+  color: var(--color-primary, #4a90e2);
+  text-decoration: none;
+}
+
+.blog-post-content a:hover {
+  text-decoration: underline;
+}
