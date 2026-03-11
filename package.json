@@ -45,6 +45,7 @@
     "gh-pages": "^6.3.0"
   },
   "overrides": {
-    "underscore": "1.13.8"
+    "underscore": "1.13.8",
+    "form-data": ">=3.0.4"
   }
 }
